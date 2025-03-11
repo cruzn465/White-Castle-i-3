@@ -58,6 +58,16 @@ function animate(){
 
     //timeline animation here
     
+    tl = new TimelineLite();
+    tl    
+    // set elements
+    // .set(ells, {scale:.001,opacity:0})
+
+    // f1
+    .to(ellipse1, 0.5, {x:7, y:9, scale:1.3, ease:Expo.easeIn},"conn-=.2")
+
+
+    
     //.call(returnTimer)
 }
 
