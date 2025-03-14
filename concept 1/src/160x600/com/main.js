@@ -61,7 +61,7 @@ function animate(){
     tl = new TimelineLite();
     tl    
     // set elements
-    .set(og2_2x, {scale:1.2})
+    // .set(og2_2x, {scale:1.2})
 
 
     .to(logo_2x, .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"+=1.3")
@@ -79,13 +79,21 @@ function animate(){
     .to([c3_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"f4+=1")
 
     // f5
-    .to(ched_2x, .7, {x:57, y:53, scale:.8, ease:Power1.easeIn},"f4+=1")
+    .to(ched_2x, .7, {x:57, y:81, scale:.75, ease:Power1.easeIn},"f4+=1")
     .from(og2_2x, .7, {x:-dimensions.width/1.5, ease:Power1.easeIn},"f4+=1")
 
+    // copy pop
     .from(c5_2x, .3, {scale:.9, opacity:0, ease:Power3.easeOut},"+=0.4")
-    .to(ched_2x, .7, {x:101, y:23, scale:.8, ease:Power2.easeIn},"ef-=.5")
-    .to(og2_2x, .7, {scale:1, ease:Power2.easeIn},"ef-=.5")
-    .from([c6_2x,c7_2x], .7, {scale:.9, opacity:0, ease:Power3.easeOut},"ef")
+
+    // add a pause
+    .to({}, 1, {})
+
+    // ef
+    .to(c5_2x, .7, {y:-16, ease:Power3.easeOut},"ef")
+    .to(ched_2x, .7, {x:45, y:61, scale:.68, ease:Power2.easeIn},"ef-=.1")
+    .to(og2_2x, .7, {x:-4, y:-20, scale:.91, ease:Power2.easeIn},"ef-=.1")
+    
+    .from([c6_2x,c7_2x], .7, {scale:.9, opacity:0, ease:Power3.easeOut},"-=.2")
 
     .staggerFrom([cta_2x,mini_logo_2x], .8, {scale:.9, opacity:0, ease:Power3.easeOut},0.3,"-=0.1")
     .from(legal_2x, .4, {opacity:0, ease:Power1.easeIn},"-=0.2")
