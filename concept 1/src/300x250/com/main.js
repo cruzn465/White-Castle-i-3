@@ -77,8 +77,8 @@ function animate(){
 
 
     // f4
-    .from([c3_2x,c4_2x,ched_2x,new_2x], .7, {x:dimensions.width/.7, ease:Power1.easeOut})
-    .to([c3_2x,c4_2x,new_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"f4+=1")
+    .from([c3_2x,ched_2x], .7, {x:dimensions.width/.7, ease:Power1.easeOut})
+    .to([c3_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"f4+=1")
 
     // f5
     .to(ched_2x, .7, {x:83, y:7, ease:Power1.easeIn},"f4+=1")

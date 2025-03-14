@@ -61,33 +61,40 @@ function animate(){
     tl = new TimelineLite();
     tl    
     // set elements
-    .set(og2_2x, {scale:1.2})
+    // .set(og2_2x, {scale:1.2})
+    .set(ched_2x, {scale:1.44})
+
 
     // f1
     .to(logo_2x, .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"+=1.3")
 
     // f2
-    .from([c1_2x,p1_2x], .7, {x:dimensions.width/.7, ease:Power1.easeOut},"-=.2")
-    .to([c1_2x,p1_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"+=1")
+
+    .from([c1_2x], .7, {x:dimensions.width/.7, ease:Power1.easeOut},"-=.2")
+    .to([c1_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"+=1")
 
 
-    // // f3
+    // f3
     .from([og_2x,c2_2x], .7, {x:dimensions.width/.7, ease:Power1.easeOut})
     .to([og_2x,c2_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"+=1")
 
 
     // f4
-    .from([c3_2x,c4_2x,ched_2x,new_2x], .7, {x:dimensions.width/.7, ease:Power1.easeOut})
-    .to([c3_2x,c4_2x,new_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"f4+=1")
+    .from([c3_2x,ched_2x], .7, {x:dimensions.width/.7, ease:Power1.easeOut})
+    .to([c3_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"f4+=1")
 
     // f5
-    .to(ched_2x, .7, {x:83, y:7, ease:Power1.easeIn},"f4+=1")
-    .from(og2_2x, .7, {x:-dimensions.width/1.5, ease:Power1.easeIn},"f4+=1")
+    .to(ched_2x, .7, {scale:1.4,x:113, y:2, ease:Power1.easeIn},"f4+=1")
+    .to(og_2x, .7, {x:2,y:-5, ease:Power1.easeIn},"f4+=1")
+    .from(c5_2x, .3, {scale:.9, opacity:0, ease:Power3.easeOut},"+=0.4")
 
 
-    .from([c5_2x], .3, {scale:.9, opacity:0, ease:Power3.easeOut},"+=0.4")
-    .to(ched_2x, .7, {x:93, y:16, scale:.83, ease:Power3.easeIn},"ef-=.5")
-    .to(og2_2x, .7, {scale:1, ease:Power3.easeIn},"ef-=.5")
+    // add a pause
+    .to({}, 1, {})
+
+    .to(c5_2x, .7, {x:-74, y:-7, scale:0.68, ease:Power3.easeIn},"-=.3")
+    .to(ched_2x, .7, {x:-71, y:2, scale:1, ease:Power3.easeIn},"ef-=.6")
+    .to(og_2x, .7, {scale:.8, x:-152, y:-5, ease:Power3.easeIn},"ef-=.6")
     .from([c6_2x,c7_2x], .7, {scale:.9, opacity:0, ease:Power3.easeOut},"ef")
 
 
