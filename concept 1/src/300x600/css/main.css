@@ -19,19 +19,6 @@ body { margin:0px 0px; padding:0px; }
 	background-repeat:no-repeat;
 }
 
-.fpo {
-	opacity: .5;
-}
-
-#bg_2x {
-	left:0px;
-	top:0px;
-	width:300px;
-	height:250px;
-	background-image:url(../img/bg_2x.jpg);
-	background-size:300px 250px;
-}
-
 #logo_2x {
 	left:48px;
 	top:193px;
@@ -48,15 +35,6 @@ body { margin:0px 0px; padding:0px; }
 	height:175px;
 	background-image:url(../img/c1_2x.png);
 	background-size:243px 175px;
-}
-
-#p1_2x {
-	left:24px;
-	top:107px;
-	width:261px;
-	height:121px;
-	background-image:url(../img/p1_2x.png);
-	background-size:261px 121px;
 }
 
 #c2_2x {
@@ -86,16 +64,6 @@ body { margin:0px 0px; padding:0px; }
 	background-size:197px 183px;
 }
 
-#c4_2x {
-	left:52px;
-	top:126px;
-	width:197px;
-	height:106px;
-	background-image:url(../img/c4_2x.png);
-	background-size:197px 106px;
-	z-index: 2;
-}
-
 #ched_2x {
 	left:-45px;
 	top:223px;
@@ -104,24 +72,6 @@ body { margin:0px 0px; padding:0px; }
 	background-image:url(../img/ched_2x.png);
 	background-size:418px 198px;
 	z-index: 1;
-}
-
-#new_2x {
-	left:54px;
-	top:5px;
-	width:64px;
-	height:50px;
-	background-image:url(../img/new_2x.png);
-	background-size:64px 50px;
-}
-
-#ched_fpo_2x {
-	left:118px;
-	top:108px;
-	width:182px;
-	height:117px;
-	background-image:url(../img/ched_fpo_2x.png);
-	background-size:182px 117px;
 }
 
 #og2_2x {
@@ -180,15 +130,6 @@ body { margin:0px 0px; padding:0px; }
 	background-size:281px 6px;
 }
 
-#mini-logo_2x {
-	left:164px;
-	top:82px;
-	width:57px;
-	height:49px;
-	background-image:url(../img/mini-logo_2x.png);
-	background-size:57px 49px;
-}
-
 #mini_logo_2x {
 	left:192px;
 	top:495px;
@@ -196,15 +137,6 @@ body { margin:0px 0px; padding:0px; }
 	height:84px;
 	background-image:url(../img/mini_logo_2x.png);
 	background-size:97px 84px;
-}
-
-#f1_fpo_2x {
-	left:0px;
-	top:0px;
-	width:300px;
-	height:600px;
-	background-image:url(../img/f1_fpo_2x.png);
-	background-size:300px 600px;
 }
 
 #bg_bottom {
@@ -221,13 +153,4 @@ body { margin:0px 0px; padding:0px; }
 	width:600px;
 	height:748px;
 	background-image:url(../img/bg_top.jpg);
-}
-
-#f4_fpo_2x {
-	left:0px;
-	top:0px;
-	width:300px;
-	height:600px;
-	background-image:url(../img/f4_fpo_2x.png);
-	background-size:300px 600px;
 }

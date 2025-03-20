@@ -1,0 +1,130 @@
+body { margin:0px 0px; padding:0px; } 
+
+* { 
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+  	-webkit-perspective: 1000px; 
+	-ms-overflow-style: hidden;
+}  
+
+#container{
+	background-color:white;
+	position:absolute;
+	overflow:hidden;
+	border: 1px solid black;
+} 
+
+.sprite {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+#bg_2x {
+	left:0px;
+	top:0px;
+	width:320px;
+	height:50px;
+	background-image:url(../img/bg_2x.jpg);
+	background-size:320px 50px;
+}
+
+#logo_2x {
+	left:137px;
+	top:5px;
+	width:46px;
+	height:40px;
+	background-image:url(../img/logo_2x.png);
+	background-size:46px 40px;
+}
+
+#c1_2x {
+	left:69px;
+	top:7px;
+	width:186px;
+	height:36px;
+	background-image:url(../img/c1_2x.png);
+	background-size:186px 36px;
+}
+
+#c2_2x {
+	left:32px;
+	top:15px;
+	width:145px;
+	height:22px;
+	background-image:url(../img/c2_2x.png);
+	background-size:145px 22px;
+}
+
+#og_2x {
+	left:184px;
+	top:1px;
+	width:102px;
+	height:47px;
+	background-image:url(../img/og_2x.png);
+	background-size:102px 47px;
+}
+
+#c3_2x {
+	left:27px;
+	top:16px;
+	width:166px;
+	height:19px;
+	background-image:url(../img/c3_2x.png);
+	background-size:166px 19px;
+}
+
+#ched_2x {
+	left:192px;
+	top:-3px;
+	width:101px;
+	height:48px;
+	background-image:url(../img/ched_2x.png);
+	background-size:101px 48px;
+}
+
+#c5_2x {
+	left:3px;
+	top:11px;
+	width:172px;
+	height:34px;
+	background-image:url(../img/c5_2x.png);
+	background-size:172px 34px;
+}
+
+#c6_2x {
+	left:139px;
+	top:31px;
+	width:58px;
+	height:14px;
+	background-image:url(../img/c6_2x.png);
+	background-size:58px 14px;
+	scale: .47;
+}
+
+#c7_2x {
+	left:174px;
+	top:27px;
+	width:132px;
+	height:21px;
+	background-image:url(../img/c7_2x.png);
+	background-size:132px 21px;
+	scale: .47;
+}
+
+#legal_2x {
+	left:11px;
+	top:41px;
+	width:119px;
+	height:3px;
+	background-image:url(../img/legal_2x.png);
+	background-size:119px 3px;
+}
+
+#mini_logo_2x {
+	left:284px;
+	top:14px;
+	width:27px;
+	height:23px;
+	background-image:url(../img/mini_logo_2x.png);
+	background-size:27px 23px;
+}

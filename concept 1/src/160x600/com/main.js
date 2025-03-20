@@ -61,8 +61,6 @@ function animate(){
     tl = new TimelineLite();
     tl    
     // set elements
-    // .set(og2_2x, {scale:1.2})
-
 
     .to(logo_2x, .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"+=1.3")
 
@@ -79,11 +77,13 @@ function animate(){
     .to([c3_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"f4+=1")
 
     // f5
+    .to(bg_bottom_2x, .7, {y:76, ease:Power1.easeIn},"f4+=1")
     .to(ched_2x, .7, {x:57, y:81, scale:.75, ease:Power1.easeIn},"f4+=1")
     .from(og2_2x, .7, {x:-dimensions.width/1.5, ease:Power1.easeIn},"f4+=1")
 
     // copy pop
     .from(c5_2x, .3, {scale:.9, opacity:0, ease:Power3.easeOut},"+=0.4")
+
 
     // add a pause
     .to({}, 1, {})
@@ -100,7 +100,6 @@ function animate(){
 
     // f1
     .from(logo_2x, 3, {scale:1.2, ease:Elastic.easeOut},0)
-    .to(bg_bottom, .7, {y:56, ease:Power1.easeIn},1.1)
     //.call(returnTimer)
 }
 

@@ -19,11 +19,6 @@ body { margin:0px 0px; padding:0px; }
 	background-repeat:no-repeat;
 }
 
-.fpo {
-	opacity: .5;
-	z-index: 2;
-}
-
 #bg_2x {
 	left:0px;
 	top:0px;
@@ -49,15 +44,6 @@ body { margin:0px 0px; padding:0px; }
 	height:81px;
 	background-image:url(../img/c1_2x.png);
 	background-size:422px 81px;
-}
-
-#p1_2x {
-	left:24px;
-	top:107px;
-	width:261px;
-	height:121px;
-	background-image:url(../img/p1_2x.png);
-	background-size:261px 121px;
 }
 
 #c2_2x {
@@ -87,16 +73,6 @@ body { margin:0px 0px; padding:0px; }
 	background-size:390px 44px;
 }
 
-#c4_2x {
-	left:108px;
-	top:29px;
-	width:163px;
-	height:83px;
-	background-image:url(../img/c4_2x.png);
-	background-size:163px 83px;
-
-}
-
 #ched_2x {
 	left:487px;
 	top:-2px;
@@ -104,33 +80,6 @@ body { margin:0px 0px; padding:0px; }
 	height:73px;
 	background-image:url(../img/ched_2x.png);
 	background-size:154px 73px;
-}
-
-#new_2x {
-	left:54px;
-	top:5px;
-	width:64px;
-	height:50px;
-	background-image:url(../img/new_2x.png);
-	background-size:64px 50px;
-}
-
-#ched_fpo_2x {
-	left:118px;
-	top:108px;
-	width:182px;
-	height:117px;
-	background-image:url(../img/ched_fpo_2x.png);
-	background-size:182px 117px;
-}
-
-#og2_2x {
-	left:0px;
-	top:107px;
-	width:169px;
-	height:112px;
-	background-image:url(../img/og2_2x.png);
-	background-size:169px 112px;
 }
 
 #c5_2x {
@@ -178,15 +127,6 @@ body { margin:0px 0px; padding:0px; }
 	background-size:281px 6px;
 }
 
-#mini-logo_2x {
-	left:164px;
-	top:82px;
-	width:57px;
-	height:49px;
-	background-image:url(../img/mini-logo_2x.png);
-	background-size:57px 49px;
-}
-
 #mini_logo_2x {
 	left:653px;
 	top:19px;
@@ -194,13 +134,4 @@ body { margin:0px 0px; padding:0px; }
 	height:59px;
 	background-image:url(../img/mini_logo_2x.png);
 	background-size:68px 59px;
-}
-
-#frame_fpo_2x {
-	left:0px;
-	top:0px;
-	width:728px;
-	height:90px;
-	background-image:url(../img/frame_fpo_2x.png);
-	background-size:728px 90px;
 }

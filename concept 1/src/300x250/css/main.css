@@ -5,23 +5,23 @@ body { margin:0px 0px; padding:0px; }
 	-webkit-backface-visibility: hidden;
   	-webkit-perspective: 1000px; 
 	-ms-overflow-style: hidden;
+
 }  
+/* #container:hover {
+	cursor:pointer;
+   } */
 
 #container{
 	background-color:white;
 	position:absolute;
 	overflow:hidden;
 	border: 1px solid black;
+	cursor:pointer !important;
 } 
 
 .sprite {
 	position:absolute;
 	background-repeat:no-repeat;
-}
-
-.fpo {
-	opacity: .5;
-	z-index: 2;
 }
 
 #bg_2x {
@@ -88,16 +88,6 @@ body { margin:0px 0px; padding:0px; }
 	z-index: 2;
 }
 
-#c4_2x {
-	left:108px;
-	top:29px;
-	width:163px;
-	height:83px;
-	background-image:url(../img/c4_2x.png);
-	background-size:163px 83px;
-
-}
-
 #ched_2x {
 	left:0px;
 	top:81px;
@@ -106,24 +96,6 @@ body { margin:0px 0px; padding:0px; }
 	background-image:url(../img/ched_2x.png);
 	background-size:296px 140px;
 	z-index: 1;
-}
-
-#new_2x {
-	left:54px;
-	top:5px;
-	width:64px;
-	height:50px;
-	background-image:url(../img/new_2x.png);
-	background-size:64px 50px;
-}
-
-#ched_fpo_2x {
-	left:118px;
-	top:108px;
-	width:182px;
-	height:117px;
-	background-image:url(../img/ched_fpo_2x.png);
-	background-size:182px 117px;
 }
 
 #og2_2x {
@@ -181,15 +153,6 @@ body { margin:0px 0px; padding:0px; }
 	background-size:281px 6px;
 }
 
-#mini-logo_2x {
-	left:164px;
-	top:82px;
-	width:57px;
-	height:49px;
-	background-image:url(../img/mini-logo_2x.png);
-	background-size:57px 49px;
-}
-
 #mini_logo_2x {
 	left:164px;
 	top:82px;
@@ -197,13 +160,4 @@ body { margin:0px 0px; padding:0px; }
 	height:49px;
 	background-image:url(../img/mini_logo_2x.png);
 	background-size:57px 49px;
-}
-
-#frame_fpo_2x {
-	left:0px;
-	top:0px;
-	width:300px;
-	height:250px;
-	background-image:url(../img/frame_fpo_2x.png);
-	background-size:300px 250px;
 }
