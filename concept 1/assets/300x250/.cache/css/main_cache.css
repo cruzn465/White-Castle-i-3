@@ -1,1 +1,19 @@
 
+
+#c2_2x {
+	left:20px;
+	top:30px;
+	width:258px;
+	height:41px;
+	background-image:url(../img/c2_2x.png);
+	background-size:258px 41px;
+}
+
+#c6_2x {
+	left:8px;
+	top:204px;
+	width:67px;
+	height:18px;
+	background-image:url(../img/c6_2x.png);
+	background-size:67px 18px;
+}

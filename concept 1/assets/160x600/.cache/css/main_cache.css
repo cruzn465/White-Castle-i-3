@@ -1,10 +1,19 @@
 
 
-#f4_fpo_2x {
-	left:0px;
-	top:0px;
-	width:160px;
-	height:600px;
-	background-image:url(../img/f4_fpo_2x.png);
-	background-size:160px 600px;
+#c2_2x {
+	left:15px;
+	top:116px;
+	width:130px;
+	height:104px;
+	background-image:url(../img/c2_2x.png);
+	background-size:130px 104px;
+}
+
+#c6_2x {
+	left:7px;
+	top:419px;
+	width:46px;
+	height:12px;
+	background-image:url(../img/c6_2x.png);
+	background-size:46px 12px;
 }

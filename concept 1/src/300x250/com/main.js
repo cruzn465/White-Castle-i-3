@@ -67,8 +67,8 @@ function animate(){
     .to(logo_2x, .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"+=1.3")
 
     // f2
-    .from([c1_2x,p1_2x], .7, {x:dimensions.width/.7, ease:Power1.easeOut},"-=.2")
-    .to([c1_2x,p1_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"+=1")
+    .from([c1_2x], .7, {x:dimensions.width/.7, ease:Power1.easeOut},"-=.2")
+    .to([c1_2x], .7, {x:-dimensions.width/.7, ease:Power2.easeIn},"+=1")
 
 
     // // f3

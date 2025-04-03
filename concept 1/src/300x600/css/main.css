@@ -40,10 +40,10 @@ body { margin:0px 0px; padding:0px; }
 #c2_2x {
 	left:63px;
 	top:94px;
-	width:177px;
+	width:175px;
 	height:135px;
 	background-image:url(../img/c2_2x.png);
-	background-size:177px 135px;
+	background-size:175px 135px;
 }
 
 #og_2x {
@@ -95,11 +95,10 @@ body { margin:0px 0px; padding:0px; }
 #c6_2x {
 	left:31px;
 	top:437px;
-	width:82px;
+	width:74px;
 	height:18px;
 	background-image:url(../img/c6_2x.png);
-	background-size:82px 18px;
-	z-index: 2;
+	background-size:74px 18px;
 }
 
 #c7_2x {

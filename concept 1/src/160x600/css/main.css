@@ -38,7 +38,7 @@ body { margin:0px 0px; padding:0px; }
 }
 
 #c2_2x {
-	left:17px;
+	left:15px;
 	top:116px;
 	width:130px;
 	height:104px;
@@ -94,10 +94,10 @@ body { margin:0px 0px; padding:0px; }
 #c6_2x {
 	left:7px;
 	top:419px;
-	width:50px;
+	width:46px;
 	height:12px;
 	background-image:url(../img/c6_2x.png);
-	background-size:50px 12px;
+	background-size:46px 12px;
 }
 
 #c7_2x {
